@@ -1,0 +1,11 @@
+
+<h1>Delete Song</h1>
+<form (ngSubmit)="deleteSong()">
+    <span>ID</span>
+    <input type="text" name="id" [(ngModel)]="removeSong.id">
+    <span>Artist</span>
+    <input type="text" name="artist" [(ngModel)]="removeSong.artist">
+    <span>Name of Song</span>
+    <input type="text" name="name" [(ngModel)]="removeSong.name">
+    <button>Delete</button>
+</form>

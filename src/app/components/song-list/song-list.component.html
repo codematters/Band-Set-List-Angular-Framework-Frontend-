@@ -1,0 +1,40 @@
+<body>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+    <div class = "card-body p-5 creatediv">
+   
+    <h1>Song List</h1>
+    
+    
+    <div *ngFor="let song of songs">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><p>{{song.id}}. <strong>{{song.artist}}</strong>: <strong>{{song.name}}</strong><br>
+                <a (click)="deleteSong(song.id)">delete</a>
+                </p> <br>
+                <label>Do you still want to jam to this song?</label>
+                <input
+                type ="checkbox"
+                [checked]="song.name"
+                (change)="updateSong()"/></li>
+          </ul>
+        <br />
+    </div>
+    <div class="buttoncontainer">
+    <div class="newSong">
+    <a class="btn btn-dark mr-2" href="/new">New Song</a>
+    </div>
+    <div class="editSong">
+        <a class="btn btn-dark mr-2" href="/edit">Edit Song</a>
+        </div>
+        </div>
+      <!--<div class="deleteSong">
+            <a class="btn btn-dark mr-2" href="/delete">Delete Song</a><br>
+            </div>-->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>

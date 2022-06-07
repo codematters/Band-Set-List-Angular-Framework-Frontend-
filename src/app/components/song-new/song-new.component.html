@@ -1,0 +1,91 @@
+<body>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+        <div class = "card-body p-5 creatediv"> 
+
+<form (ngSubmit)="createSong()">
+    
+   <h1>New Song</h1>
+    <span><strong>Track #</strong></span>
+    <input class="songID" type="text" name="id" [(ngModel)]="newSong.id">
+    <span><strong>Artist</strong></span>
+    <input class="songArtist" type="text" name="artist" [(ngModel)]="newSong.artist">
+    <span><strong>Name of Song</strong></span>
+    <input class="songName" type="text" name="name" [(ngModel)]="newSong.name">
+    <br>
+    <button class="btn btn-dark">Create Song</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+
+<!--
+    <body>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+        <div class = "card-body p-5 creatediv"> 
+
+
+<form (ngSubmit)="updateSong()">
+    <h1>Edit Song</h1>
+    <span>ID</span>
+    <input type="text" name="id" [(ngModel)]="changeSong.id">
+    <span>Artist</span>
+    <input type="text" name="artist" [(ngModel)]="changeSong.artist">
+    <span>Name of Song</span>
+    <input type="text" name="name" [(ngModel)]="changeSong.name">
+    <button>Edit</button>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+-->
+
+
+
+    <!--<body>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+    <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+    <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+    <div class = "card-body p-5 creatediv"> 
+    <form (ngSubmit)="createSong()">
+   <div class="form-group">
+    <h1>New Song</h1>
+    <br>
+    <span><strong>ID</strong></span>
+    <input class="songID"
+    type="text"
+    name="songID"
+    [(ngModel)]="newSong.id">
+    <br>
+    <span><strong>Artist</strong></span>
+    <input class="songArtist"
+    type="text"
+    name="songArtist"
+    [(ngModel)]="newSong.artist">
+    <br>
+    <span><strong>Name</strong></span>
+    <input class="songName"
+    type="text"
+    name="songName"
+    [(ngModel)]="newSong.name">
+    </div>
+    <a class="btn btn-light mr-2">Create Song</a><br>
+   </form>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</body>-->

@@ -1,0 +1,47 @@
+body {
+   background-image: URL("https://burst.shopifycdn.com/photos/music-fans-at-a-venue.jpg?width=925&format=pjpg&exif=1&iptc=1");
+   background-size: cover;
+
+}
+
+
+
+.newSong {
+ 
+  /*  padding-top: 15px;
+    padding-bottom: 12px;*/
+}
+
+.editSong {
+  margin-left: 10px;
+   /* padding-top: 12px;
+    padding-bottom: 40px;*/
+
+}
+.buttoncontainer {
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*.deleteSong {
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-bottom: 40px;
+}*/
+
+
+
+h1 {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.creatediv {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: linear-gradient(#bdc3c7,#2c3e50);
+}

@@ -1,0 +1,4 @@
+div {
+    min-height: calc(15vh - 50px);
+    color: white;
+}
