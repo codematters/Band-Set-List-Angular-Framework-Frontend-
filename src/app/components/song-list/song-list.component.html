@@ -5,7 +5,7 @@
     <div class="col-12 col-md-9 col-lg-7 col-xl-6">
     <div class = "card-body p-5 creatediv">
    
-    <h1>Song List</h1>
+    <h1>Setlist</h1>
     
     
     <div *ngFor="let song of songs">
@@ -13,7 +13,7 @@
             <li class="list-group-item"><p>{{song.id}}. <strong>{{song.artist}}</strong>: <strong>{{song.name}}</strong><br>
                 <a (click)="deleteSong(song.id)">delete</a>
                 </p> <br>
-                <label>Do you still want to jam to this song?</label>
+                <label>Do you still want to play this song?</label>
                 <input
                 type ="checkbox"
                 [checked]="song.name"
