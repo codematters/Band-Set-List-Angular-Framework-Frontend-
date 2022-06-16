@@ -1,6 +1,6 @@
 # SongClientFinal
 
-The Band Setlist application allows users to create a setlist to prepare for a band gig. The application uses CRUD methods allowing the user to add, edit, and delete their songs from the setlist. 
+The Band Setlist application allows users to create a setlist to prepare for a band gig. The application uses CRUD methods allowing the user to add, edit, and delete their songs from the setlist. The frontend of the application was created using the Angular framework. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
 
